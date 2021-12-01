@@ -1,0 +1,31 @@
+{
+  "name": "eventosjs",
+  "version": "1.0.0",
+  "description": "tp de eventos en js para html",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "PABLO",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PABLOTREK/EVENTS_JS_DOM_1-12-21.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PABLOTREK/EVENTS_JS_DOM_1-12-21/issues"
+  },
+  "homepage": "https://github.com/PABLOTREK/EVENTS_JS_DOM_1-12-21#readme"
+}

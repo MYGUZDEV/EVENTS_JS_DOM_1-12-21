@@ -16,4 +16,11 @@ window.onload = function () {
     moviesListTitulo.style.color = 'white';
     moviesListTitulo.style.backgroundColor = 'teal';
     moviesListTitulo.style.padding = '20px';
-  };
+    
+    if (
+        logo.addEventListener('mouseout', () => {
+          body.style.backgroundColor = '#FFFFFF';
+          body.classList.toggle('fondoMoviesList');
+        })
+      );
+};
